@@ -1,4 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+RUN groupadd -r Sravan&& useradd -r -g Sravan Sravan
+
 WORKDIR /app
 
 RUN apt-get update
