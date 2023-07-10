@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-RUN groupadd -r Sravan&& useradd -r -g Sravan Sravan
+RUN groupadd -r myuser && useradd -r -g myuser myuser
 
 WORKDIR /app
 
