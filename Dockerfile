@@ -10,7 +10,7 @@ RUN apt-get -y install nodejs
 COPY . ./
 
 RUN chown -R Sravan:Sravan /app
-RUN chown -R Sravan:Sravan /home/Sravan/.dotnet 
+
 USER Sravan
 
 RUN dotnet restore
