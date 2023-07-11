@@ -28,5 +28,5 @@ RUN echo 'Sravan:Docker' | chpasswd
 
 ENV ASPNETCORE_URLS http://*:5000
 
-EXPOSE 5000
+EXPOSE 5000:5000
 ENTRYPOINT ["dotnet", "dotnet6.dll"]
