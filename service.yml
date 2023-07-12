@@ -4,7 +4,7 @@ metadata:
   name: docker-node
   namespace: bermtec
 spec:
-  selector: test
+  selector: 
     app: docker-node
   ports:
     - protocol: TCP
