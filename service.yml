@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: docker-node
-  
+  namespace: bermtec
 spec:
   selector: test
     app: docker-node
