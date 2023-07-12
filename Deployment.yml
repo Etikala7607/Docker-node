@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: docker-node
   labels:
-    app: nginx
+    app: docker-node
 spec:
   replicas: 3
   selector:
     matchLabels: test
-      app: nginx
+      app: docker-node
   template:
     metadata:
       labels: test
