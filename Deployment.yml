@@ -6,7 +6,7 @@ metadata:
   labels:
     app: docker-node
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: docker-node
@@ -16,7 +16,7 @@ spec:
         app: docker-node
     spec:
       containers:
-      - name: docker-node
-        image: docker-node-app
+      - name: docker-node-app
+        image: dockeravan/docker-node-app:V1
         ports:
         - containerPort: 80
