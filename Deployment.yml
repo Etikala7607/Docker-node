@@ -17,6 +17,7 @@ spec:
     spec:
       containers:
       - name: docker-node-app
-        image: dockeravan/docker-node-app:V1
+        image: neeeacr.azurecr.io/ne:1.0
         ports:
         - containerPort: 80
+        
