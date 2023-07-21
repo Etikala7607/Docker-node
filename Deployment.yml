@@ -16,9 +16,9 @@ spec:
         app: docker-node
     spec:
       containers:
-       - name: docker-node-app
+      - name: docker-node-app
         image: acrkcr.azurecr.io/img:1.0
         ports:
         - containerPort: 80
       imagePullSecrets:
-       - name: new-secret
+      - name: new-secret
